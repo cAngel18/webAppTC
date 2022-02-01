@@ -5,6 +5,8 @@ WORKDIR /build
 RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 
+#RUN npm install -g @angular/cli
+
 # copy csproj and restore as distinct layers
 COPY ./*.csproj .
 RUN dotnet restore
