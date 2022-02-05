@@ -26,4 +26,4 @@ app.MapFallbackToFile("index.html");;
 
 app.Run();
 
-// random
+// random, change at the same position like release
